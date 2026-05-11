@@ -1,6 +1,5 @@
 document.addEventListener("DOMContentLoaded", () => {
 
-```
 // ======================
 // Navbar Scroll Effect
 // ======================
@@ -91,7 +90,6 @@ if (closePopupBtn) {
         window.location.href = "index.html";
     });
 }
-```
 
 });
 // EmailJS Query Form
@@ -107,7 +105,6 @@ if (queryForm) {
 queryForm.addEventListener("submit", function(e) {
 e.preventDefault();
 
-```
     const formData = {
         name: queryForm.querySelector('input[type="text"]').value,
         phone: queryForm.querySelector('input[type="tel"]').value,
@@ -130,7 +127,6 @@ e.preventDefault();
     });
 
 });
-```
 
 }
 
