@@ -102,7 +102,8 @@ ul {
 }
 
 .logo img {
-  width: 40px;
+  width: 95px;
+  height: auto;
 }
 
 .nav-links {
@@ -275,7 +276,8 @@ section {
 
 .about-image img {
   width: 100%;
-  height: auto;
+  max-width: 550px;
+  height: 350px;
   display: block;
   transition: transform 0.5s ease;
 }
@@ -563,6 +565,65 @@ footer {
   color: var(--white);
   margin-bottom: 20px;
   font-size: 1.5rem;
+}
+/*Contact section start*/
+.footer-col ul li {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 14px;
+    opacity: 0.8;
+    transition: var(--transition);
+}
+
+.footer-col ul li:hover {
+    opacity: 1;
+    transform: translateX(5px);
+}
+
+.footer-col ul li i {
+    font-size: 1rem;
+    color: var(--accent-color);
+    width: 18px;
+    text-align: center;
+    flex-shrink: 0;
+}
+
+.footer-col ul li a {
+    color: var(--white);
+    transition: var(--transition);
+}
+
+.footer-col ul li a:hover {
+    color: var(--accent-color);
+}
+/*Contact section end*/
+
+.social-links {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.social-links a {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: var(--white);
+    opacity: 0.8;
+    transition: var(--transition);
+    font-size: 1rem;
+}
+
+.social-links a:hover {
+    opacity: 1;
+    color: var(--accent-color);
+    transform: translateX(5px);
+}
+
+.social-links i {
+    font-size: 1.3rem;
+    width: 20px;
 }
 
 .footer-col p, .footer-col ul li {
